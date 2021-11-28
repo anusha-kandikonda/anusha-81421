@@ -1,0 +1,232 @@
+body{
+    background-color: whitesmoke;
+}
+header{
+    display: flex;
+    position: relative;
+    padding-left: 15px;
+}
+#nav-search{
+    display:flex;
+}
+.nav-fill{
+    display:flex;  
+}
+.bar-right{
+    display: flex;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+.flag{
+    background-color: #0F2027;
+    
+}
+.flag img{
+    color: #0F2027;
+}
+.bar-right1{
+ padding-left: 20px;
+}
+.bar-right2{
+    padding-left: 15px;
+   }
+.nav_bar{
+    height: 40px;
+    background-color: #232F3E; 
+    display: flex;
+    padding-top: 5px;
+}
+.nav_items{
+    color: white;
+}
+.nav_items ul{
+    list-style: none;
+    display: flex;
+    padding-left: 10px;
+}
+.nav_items ul li{
+    padding-left: 10px;
+}
+.nav_items li a{
+    text-decoration: none ;
+    color: white;
+}
+ul li:hover{
+    border: 1px solid white;
+}
+.nav_left:hover{
+    border: 1px solid white;
+}
+.nav_right img:hover{
+    border: 1px solid white;
+
+}
+/* .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  } */
+  .grid{
+      display: flex;
+      
+  }
+  .grid1{
+    margin-top: 30px;
+    display: flex;
+  }
+  .grid2{
+    margin-top: 40px;
+    margin-left: 25px; 
+}
+.grid3{
+    margin-top: 40px;
+    margin-left: 25px; 
+}
+.grid2_card{
+    display: flex;
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    margin-left: 25px;
+    border: 3px solid white;
+}
+
+.card1{
+    margin-top: -350px;
+    position: relative;
+    margin-left: 25px;
+    background-color: white;
+    width: 350px;
+    height: 450px;
+    border: 3px solid white;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+.in-card1{
+    display: flex;
+    padding-left: 25px;
+}
+.one{
+    position: relative;
+    width: 125px;
+    height: 120px;
+    background-color: rgb(193, 250, 244);
+    border: 3px solid white;
+    align-items: center;
+    padding-top: 10px;
+}
+.two{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    padding-top: 10px;
+}
+.in-card2{
+    display: flex;
+}
+.card2{
+    margin-top: -350px;
+    position: relative;
+    margin-left: 25px;
+    background-color: white;
+    width: 350px;
+    height: 175px;
+    border: 3px solid white;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.card2_img{
+    position: relative;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+.card3{
+    position: relative;
+    margin-left: 5px;
+    background-color: white;
+    width: 350px;
+    height: 450px;
+    border: 3px solid white;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+div.scrollmenu {
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap; 
+  }
+  div.scrollmenu ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+  }
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+.foot1{
+    width: 100%;
+    height: 50px;
+    background-color: #232F3E;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+.foot2{
+    background-color:#212b36;
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-left: 30px;
+    justify-content: center;
+}
+.foot2-in{
+    color: white;
+    margin-left: 100px;
+}
+.foot3{
+    background-color: #212b36;
+    width: 100%;
+    height: 70px;
+    color: white;
+    padding-left: 100px;
+    display: flex;
+}
+.foot3 p{
+    padding-left: 8px;
+}
+.foot4{
+    background-color: #131A22;
+    padding: 30px 0px 30px 250px;
+}
+/* .foot-table{
+    padding-left: 100px;
+} */
+.foot-td{
+    font-size: 11px!important;
+    padding: 0 0.75em;
+    vertical-align: top;
+    text-align: left;
+    line-height: 115%;
+    color: white;
+    
+}
+.navFooterDescText{
+    display: inline;
+    width: 100px;
+    color:white
+}
+.foot5
+{
+    font-size: 13px;
+    padding-top: 30px;
+    justify-content: center;
+    display: flex;
+    background-color: #131A22;
+    
+}
